@@ -2,7 +2,7 @@
  public JsonResult SubmtStudentDetails(string Email = "", string Name = "", string Mobile = "", string State = "", string StudentId = "")
  {
 
-     objModel.Name = Name;
+     objModel.Name = `Name`;
      objModel.Email = Email;
      objModel.Phone = Mobile;
      objModel.modename = "insert";
